@@ -1,37 +1,28 @@
 import React from "react";
 
-import ColorNavbar from "components/Navbars/ColorNavbar.js";
-import IndexHeader from "components/Headers/IndexHeader.js";
-import AurisFooter from "components/Footers/AurisFooter.js";
 import classnames from "classnames";
-import { Link, Navigate } from 'react-router-dom';
+import AurisFooter from "../components/Footers/AurisFooter";
+import IndexHeader from "../components/Headers/IndexHeader";
+import { Link } from 'react-router-dom';
 
+import NavbarAuris from "../components/Navbars/NavbarAuris";
 import {
   Badge,
   Button,
   Card,
-  CardHeader,
   CardBody,
-  CardTitle,
   CardFooter,
-  Label,
-  FormGroup,
-  Form,
-  Input,
-  InputGroupText,
-  Navbar,
-  NavbarBrand,
-  NavItem,
-  NavLink,
-  Nav,
-  InputGroup,
-  Container,
-  Row,
+  CardHeader,
+  CardTitle,
   Col,
-  UncontrolledCollapse,
+  Container,
+  Form,
+  FormGroup,
+  Input,
+  InputGroup,
+  Row
 } from "reactstrap";
-import NavbarAuris from "components/Navbars/NavbarAuris";
-import Clientes from "./SectionsSections/Clientes";
+import Clientes from "../views/SectionsSections/Clientes.jsx";
 
 export default function Index() {
   const wrapper = React.useRef(null);
@@ -65,7 +56,7 @@ export default function Index() {
                 <img
                   alt="..."
                   className="path"
-                  src={require("assets/img/path4.png")}
+                  src={require("../assets/img/path4.png")}
                 />
                 <Container fluid>
                   <Row>
@@ -85,7 +76,7 @@ export default function Index() {
                           <img
                             alt="..."
                             className="bg-blob"
-                            src={require("assets/img/feature-blob/success.png")}
+                            src={require("../assets/img/feature-blob/success.png")}
                           />
                           <i className="tim-icons icon-html5" />
                         </div>
@@ -114,7 +105,7 @@ export default function Index() {
                           <img
                             alt="..."
                             className="bg-blob"
-                            src={require("assets/img/feature-blob/warning.png")}
+                            src={require("../assets/img/feature-blob/warning.png")}
                           />
                           <i className="tim-icons icon-heart-2" />
                         </div>
@@ -145,7 +136,7 @@ export default function Index() {
                           <img
                             alt="..."
                             className="bg-blob"
-                            src={require("assets/img/feature-blob/danger.png")}
+                            src={require("../assets/img/feature-blob/danger.png")}
                           />
                           <i className="tim-icons icon-chart-bar-32" />
                         </div>
@@ -174,7 +165,7 @@ export default function Index() {
                           <img
                             alt="..."
                             className="bg-blob"
-                            src={require("assets/img/feature-blob/info.png")}
+                            src={require("../assets/img/feature-blob/info.png")}
                           />
                           <i className="tim-icons icon-paper" />
                         </div>
@@ -217,17 +208,17 @@ export default function Index() {
                 <img
                   alt="..."
                   className="path2"
-                  src={require("assets/img/path2.png")}
+                  src={require("../assets/img/path2.png")}
                 />
                 <img
                   alt="..."
                   className="path3"
-                  src={require("assets/img/path5.png")}
+                  src={require("../assets/img/path5.png")}
                 />
                 <img
                   alt="..."
                   className="path4"
-                  src={require("assets/img/path1.png")}
+                  src={require("../assets/img/path1.png")}
                 />
                 <Row>
                   <Col className="ml-auto mr-auto text-center mb-3" md="8">
@@ -249,11 +240,11 @@ export default function Index() {
                         <Badge color="info">Purposes</Badge>
                       </CardHeader>
                       <div className="proyect-cover">
-                        <a href="#" onClick={(e) => e.preventDefault()}>
+                        <a href="#pablo" onClick={(e) => e.preventDefault()}>
                           <img
                             alt="..."
                             className="img rounded img-raised"
-                            src={require("assets/img/proyectos/glaciares1.png")}
+                            src={require("../assets/img/proyectos/glaciares1.png")}
                           />
                         </a>
                       </div>
@@ -278,7 +269,7 @@ export default function Index() {
                           <img
                             alt="..."
                             className="img rounded img-raised"
-                            src={require("assets/img/chester-wade.jpg")}
+                            src={require("../assets/img/chester-wade.jpg")}
                           />
                         </a>
                       </div>
@@ -311,7 +302,7 @@ export default function Index() {
                           <img
                             alt="..."
                             className="img rounded img-raised"
-                            src={require("assets/img/fabien-bazanegue.jpg")}
+                            src={require("../assets/img/fabien-bazanegue.jpg")}
                           />
                         </a>
                       </div>
@@ -344,7 +335,7 @@ export default function Index() {
                           <img
                             alt="..."
                             className="img rounded img-raised"
-                            src={require("assets/img/mark-finn.jpg")}
+                            src={require("../assets/img/mark-finn.jpg")}
                           />
                         </a>
                       </div>
@@ -367,12 +358,12 @@ export default function Index() {
             <img
               alt="..."
               className="path3"
-              src={require("assets/img/path5.png")}
+              src={require("../assets/img/path5.png")}
             />
             <img
                   alt="..."
                   className="path2"
-                  src={require("assets/img/path2.png")}
+                  src={require("../assets/img/path2.png")}
                 />
             <div
               className="contactus-1 mb-5"

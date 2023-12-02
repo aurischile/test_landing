@@ -6,7 +6,7 @@ export const items2 = [
   //       <img
   //         alt="..."
   //         className="img img-raised rounded"
-  //         src={require("assets/img/clientes/uchile.png")}
+  //         src={require("../assets/img/clientes/uchile.png")}
   //       />
   //     </div>
   //   ),
@@ -22,7 +22,7 @@ export const items2 = [
   //         <img
   //           alt="..."
   //           className=""
-  //           src={require("assets/img/clientes/uchile.png")}
+  //           src={require("../assets/img/clientes/uchile.png")}
   //         />
   //   ),
   //   altText: "Gain access to the demographics, psychographics, and location of unique people.",
@@ -36,7 +36,7 @@ export const items2 = [
           <a href="#pablo" onClick={(e) => e.preventDefault()}>
             <img
               alt="..."
-              src={require("assets/img/clientes/uchile.png")}
+              src={require("../assets/img/clientes/uchile.png")}
               className="img clientes"/>
           </a>
         </div>
@@ -59,7 +59,7 @@ export const items2 = [
             <img
               alt="..."
               className="img clientes"
-              src={require("assets/img/clientes/logo_cmm2.png")}
+              src={require("../assets/img/clientes/logo_cmm2.png")}
             />
           </a>
         </div>
@@ -82,7 +82,7 @@ export const items2 = [
             <img
               alt="..."
               className="img clientes"
-              src={require("assets/img/clientes/cepal logo.png")}
+              src={require("../assets/img/clientes/cepal logo.png")}
             />
           </a>
         </div>
@@ -105,7 +105,7 @@ export const items2 = [
             <img
               alt="..."
               className="img clientes"
-              src={require("assets/img/clientes/ciren-logo-01.png")}
+              src={require("../assets/img/clientes/ciren-logo-01.png")}
             />
           </a>
         </div>
@@ -127,7 +127,7 @@ export const items2 = [
           <a href="#pablo" onClick={(e) => e.preventDefault()}>
             <img
               alt="..."
-              src={require("assets/img/clientes/sernageomin.png")}
+              src={require("../assets/img/clientes/sernageomin.png")}
               className="img clientes"/>
           </a>
         </div>
@@ -150,7 +150,7 @@ export const items2 = [
             <img
               alt="..."
               className="img clientes"
-              src={require("assets/img/clientes/minvu.png")}
+              src={require("../assets/img/clientes/minvu.png")}
             />
           </a>
         </div>
@@ -173,7 +173,7 @@ export const items2 = [
             <img
               alt="..."
               className="img clientes"
-              src={require("assets/img/clientes/bermann.webp")}
+              src={require("../assets/img/clientes/bermann.webp")}
             />
           </a>
         </div>
@@ -196,7 +196,7 @@ export const items2 = [
             <img
               alt="..."
               className="img clientes"
-              src={require("assets/img/clientes/armada.png")}
+              src={require("../assets/img/clientes/armada.png")}
             />
           </a>
         </div>
@@ -218,7 +218,7 @@ export const items2 = [
           <a href="#pablo" onClick={(e) => e.preventDefault()}>
             <img
               alt="..."
-              src={require("assets/img/clientes/bhp.png")}
+              src={require("../assets/img/clientes/bhp.png")}
               className="img clientes"/>
           </a>
         </div>
@@ -241,7 +241,7 @@ export const items2 = [
             <img
               alt="..."
               className="img clientes"
-              src={require("assets/img/clientes/codelco.png")}
+              src={require("../assets/img/clientes/codelco.png")}
             />
           </a>
         </div>
@@ -264,7 +264,7 @@ export const items2 = [
             <img
               alt="..."
               className="img clientes"
-              src={require("assets/img/clientes/caserones2.png")}
+              src={require("../assets/img/clientes/caserones2.png")}
             />
           </a>
         </div>
@@ -287,7 +287,7 @@ export const items2 = [
             <img
               alt="..."
               className="img clientes"
-              src={require("assets/img/clientes/corfo.png")}
+              src={require("../assets/img/clientes/corfo.png")}
             />
           </a>
         </div>
@@ -310,7 +310,7 @@ export const items2 = [
             <img
               alt="..."
               className="img clientes"
-              src={require("assets/img/clientes/anid.png")}
+              src={require("../assets/img/clientes/anid.png")}
             />
           </a>
         </div>
@@ -333,7 +333,7 @@ export const items2 = [
             <img
               alt="..."
               className="img clientes"
-              src={require("assets/img/clientes/cielos_chile.webp")}
+              src={require("../assets/img/clientes/cielos_chile.webp")}
             />
           </a>
         </div>
@@ -356,7 +356,7 @@ export const items2 = [
             <img
               alt="..."
               className="img clientes"
-              src={require("assets/img/clientes/cata.png")}
+              src={require("../assets/img/clientes/cata.png")}
             />
           </a>
         </div>

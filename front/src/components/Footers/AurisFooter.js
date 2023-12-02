@@ -5,7 +5,7 @@ import {
   Button,
   Container,
 } from "reactstrap";
-import Aurislogo01 from "assets/img/auris/Auris-logo01-nbg-sm2.png"
+import Aurislogo01 from "../../assets/img/auris/Auris-logo01-nbg-sm2.png"
 
 const scrollPage = (e, id) => {
   e.preventDefault();
@@ -22,17 +22,18 @@ export default function AurisFooter() {
           <a
             className="footer-brand"
             onClick={(e) => scrollPage(e, "aurisNavbar")}
+            href="#aurisNavbar"
           >
-            <span><img src={Aurislogo01}/></span>
+            <span><img src={Aurislogo01} alt="hola"/></span>
           </a>
           <ul className="pull-center">
             <li>
-              <a onClick={(e) => scrollPage(e, "nosotros")}>
+              <a onClick={(e) => scrollPage(e, "nosotros")} href="#pablo">
                 Nosotros
               </a>
             </li>
             <li>
-              <a onClick={(e) => scrollPage(e, "testimonials")}>
+              <a onClick={(e) => scrollPage(e, "testimonials")} href="#pablo">
                 clientes
               </a>
             </li>
@@ -40,6 +41,7 @@ export default function AurisFooter() {
               <a
                 onClick={(e) => scrollPage(e, "proyectos")}
                 className="ml-1"
+                href="#pablo"
               >
                 Proyectos
               </a>
@@ -48,6 +50,7 @@ export default function AurisFooter() {
               <a
                 onClick={(e) => scrollPage(e, "contacto")}
                 className="ml-1"
+                href="#pablo"
               >
                 Contacto
               </a>

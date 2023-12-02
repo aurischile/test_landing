@@ -20,26 +20,18 @@ import Slick from "react-slick";
 
 // reactstrap components
 import {
-  Badge,
   Button,
   Card,
-  CardHeader,
   CardBody,
-  CardFooter,
   CardTitle,
-  Input,
-  Media,
-  Container,
-  Row,
   Col,
-  UncontrolledTooltip,
+  Container,
+  Row
 } from "reactstrap";
 
 // core components
-import ColorNavbar from "components/Navbars/ColorNavbar.js";
-import DemoFooter from "components/Footers/DemoFooter.js";
-import NavbarAuris from "components/Navbars/NavbarAuris";
-import AurisFooter from "components/Footers/AurisFooter";
+import AurisFooter from "../../components/Footers/AurisFooter";
+import NavbarAuris from "../../components/Navbars/NavbarAuris";
 
 // custom previous button for the slick component
 const PrevButton = (props) => {
@@ -138,7 +130,7 @@ export default function ProyectosGla() {
                 playsInline="playsinline"
               >
                 <source
-                  src={require("assets/video/Mt_Baker.mp4")}
+                  src={require("../../assets/video/Mt_Baker.mp4")}
                   type="video/mp4"
                 />
               </video>
@@ -164,7 +156,7 @@ export default function ProyectosGla() {
             data-parallax={true}
             style={{
               backgroundImage:
-                "url(" + require("assets/img/claudia-ramirez.jpg") + ")",
+                "url(" + require("../../assets/img/claudia-ramirez.jpg") + ")",
             }}
           />
           <Container>
@@ -175,7 +167,7 @@ export default function ProyectosGla() {
                   <img
                     alt="..."
                     className="avatar img-raised"
-                    src={require("assets/img/p10.jpg")}
+                    src={require("../../assets/img/p10.jpg")}
                   />
                 </div>
                 <br />
@@ -231,7 +223,7 @@ export default function ProyectosGla() {
             <img
               alt="..."
               height="500"
-              src={require("assets/img/mark-harrison.jpg")}
+              src={require("../../assets/img/mark-harrison.jpg")}
               width="450"
             />
           </div>
@@ -239,7 +231,7 @@ export default function ProyectosGla() {
             <img
               alt="..."
               height="500"
-              src={require("assets/img/steven-roe.jpg")}
+              src={require("../../assets/img/steven-roe.jpg")}
               width="450"
             />
           </div>
@@ -247,7 +239,7 @@ export default function ProyectosGla() {
             <img
               alt="..."
               height="500"
-              src={require("assets/img/rezaul-karim.jpg")}
+              src={require("../../assets/img/rezaul-karim.jpg")}
               width="450"
             />
           </div>
@@ -255,7 +247,7 @@ export default function ProyectosGla() {
             <img
               alt="..."
               height="500"
-              src={require("assets/img/pawel-nolbert.jpg")}
+              src={require("../../assets/img/pawel-nolbert.jpg")}
               width="450"
             />
           </div>
@@ -263,7 +255,7 @@ export default function ProyectosGla() {
             <img
               alt="..."
               height="500"
-              src={require("assets/img/serge-kutuzov.jpg")}
+              src={require("../../assets/img/serge-kutuzov.jpg")}
               width="450"
             />
           </div>
@@ -331,7 +323,7 @@ export default function ProyectosGla() {
                       <CardHeader
                         style={{
                           backgroundImage:
-                            "url(" + require("assets/img/ruvim-noga.jpg") + ")",
+                            "url(" + require("../../assets/img/ruvim-noga.jpg") + ")",
                         }}
                       >
                         <div className="card-avatar">
@@ -339,7 +331,7 @@ export default function ProyectosGla() {
                             <img
                               alt="..."
                               className="img img-raised"
-                              src={require("assets/img/lora.jpg")}
+                              src={require("../../assets/img/lora.jpg")}
                             />
                           </a>
                         </div>
@@ -414,7 +406,7 @@ export default function ProyectosGla() {
                         <Media
                           alt="..."
                           className="img-raised"
-                          src={require("assets/img/james.jpg")}
+                          src={require("../../assets/img/james.jpg")}
                         />
                       </div>
                     </a>
@@ -473,7 +465,7 @@ export default function ProyectosGla() {
                         <Media
                           alt="..."
                           className="img-raised"
-                          src={require("assets/img/michael.jpg")}
+                          src={require("../../assets/img/michael.jpg")}
                         />
                       </div>
                     </a>
@@ -525,7 +517,7 @@ export default function ProyectosGla() {
                             <Media
                               alt="..."
                               className="img-raised"
-                              src={require("assets/img/julie.jpg")}
+                              src={require("../../assets/img/julie.jpg")}
                             />
                           </div>
                         </a>
@@ -583,7 +575,7 @@ export default function ProyectosGla() {
                       <Media
                         alt="..."
                         className="img-raised"
-                        src={require("assets/img/olivia.jpg")}
+                        src={require("../../assets/img/olivia.jpg")}
                       />
                     </div>
                   </a>
@@ -621,7 +613,7 @@ export default function ProyectosGla() {
                       <img
                         alt="..."
                         className="img rounded"
-                        src={require("assets/img/steven-roe.jpg")}
+                        src={require("../../assets/img/steven-roe.jpg")}
                       />
                     </a>
                   </div>
@@ -641,7 +633,7 @@ export default function ProyectosGla() {
                         <img
                           alt="..."
                           className="avatar img-raised"
-                          src={require("assets/img/p10.jpg")}
+                          src={require("../../assets/img/p10.jpg")}
                         />
                         <span className="ml-1">Mike John</span>
                       </div>
@@ -659,7 +651,7 @@ export default function ProyectosGla() {
                       <img
                         alt="..."
                         className="img rounded"
-                        src={require("assets/img/noah-wetering.jpg")}
+                        src={require("../../assets/img/noah-wetering.jpg")}
                       />
                     </a>
                   </div>
@@ -679,7 +671,7 @@ export default function ProyectosGla() {
                         <img
                           alt="..."
                           className="avatar img-raised"
-                          src={require("assets/img/johana.jpg")}
+                          src={require("../../assets/img/johana.jpg")}
                         />
                         <span className="ml-1">Johanna Zmud</span>
                       </div>
@@ -697,7 +689,7 @@ export default function ProyectosGla() {
                       <img
                         alt="..."
                         className="img rounded"
-                        src={require("assets/img/mark-harrison.jpg")}
+                        src={require("../../assets/img/mark-harrison.jpg")}
                       />
                     </a>
                   </div>
@@ -717,7 +709,7 @@ export default function ProyectosGla() {
                         <img
                           alt="..."
                           className="avatar img-raised"
-                          src={require("assets/img/christian.jpg")}
+                          src={require("../../assets/img/christian.jpg")}
                         />
                         <span className="ml-1">Marc Oliver</span>
                       </div>
@@ -735,7 +727,7 @@ export default function ProyectosGla() {
                       <img
                         alt="..."
                         className="img rounded img-raised"
-                        src={require("assets/img/pawel-nolbert.jpg")}
+                        src={require("../../assets/img/pawel-nolbert.jpg")}
                       />
                     </a>
                   </div>
@@ -759,7 +751,7 @@ export default function ProyectosGla() {
                       <img
                         alt="..."
                         className="avatar img-raised"
-                        src={require("assets/img/olivia.jpg")}
+                        src={require("../../assets/img/olivia.jpg")}
                       />
                       <span className="ml-1">Anna Spark</span>
                     </div> */}
@@ -773,7 +765,7 @@ export default function ProyectosGla() {
                       <img
                         alt="..."
                         className="img rounded img-raised"
-                        src={require("assets/img/serge-kutuzov.jpg")}
+                        src={require("../../assets/img/serge-kutuzov.jpg")}
                       />
                     </a>
                   </div>
@@ -796,7 +788,7 @@ export default function ProyectosGla() {
                       <img
                         alt="..."
                         className="avatar img-raised"
-                        src={require("assets/img/michael.jpg")}
+                        src={require("../../assets/img/michael.jpg")}
                       />
                       <span className="ml-1">John Black</span>
                     </div> */}
@@ -810,7 +802,7 @@ export default function ProyectosGla() {
                       <img
                         alt="..."
                         className="img rounded img-raised"
-                        src={require("assets/img/1234.png")}
+                        src={require("../../assets/img/1234.png")}
                       />
                     </a>
                   </div>
@@ -836,7 +828,7 @@ export default function ProyectosGla() {
                       <img
                         alt="..."
                         className="avatar img-raised"
-                        src={require("assets/img/james.jpg")}
+                        src={require("../../assets/img/james.jpg")}
                       />
                       <span className="ml-1">James Newman</span>
                     </div> */}
@@ -864,7 +856,7 @@ export default function ProyectosGla() {
                               <img
                                 alt="..."
                                 className="img rounded"
-                                src={require("assets/img/trae-gould.jpg")}
+                                src={require("../../assets/img/trae-gould.jpg")}
                               />
                             </a>
                           </div>
@@ -899,7 +891,7 @@ export default function ProyectosGla() {
                               <img
                                 alt="..."
                                 className="avatar img-raised"
-                                src={require("assets/img/james.jpg")}
+                                src={require("../../assets/img/james.jpg")}
                               />
                               <div className="text">
                                 <span className="name">Tom Hanks</span>
@@ -921,7 +913,7 @@ export default function ProyectosGla() {
                               <img
                                 alt="..."
                                 className="img rounded"
-                                src={require("assets/img/mark-harrison.jpg")}
+                                src={require("../../assets/img/mark-harrison.jpg")}
                               />
                             </a>
                           </div>
@@ -957,7 +949,7 @@ export default function ProyectosGla() {
                               <img
                                 alt="..."
                                 className="avatar img-raised"
-                                src={require("assets/img/michael.jpg")}
+                                src={require("../../assets/img/michael.jpg")}
                               />
                               <div className="text">
                                 <span className="name">Tom Hanks</span>
