@@ -1,17 +1,14 @@
-import React from "react";
 
-import "assets/css/nucleo-icons.css";
-import "assets/css/blk-design-system-pro-react.css";
-import "assets/demo/demo.css";
-import "assets/demo/react-demo.css";
+import "./assets/css/blk-design-system-pro-react.css";
+import "./assets/css/nucleo-icons.css";
+import "./assets/demo/demo.css";
+import "./assets/demo/react-demo.css";
 
-import ReactDOM from "react-dom/client";
-import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 
-import Presentation from "views/Presentation.js";
-import LandingPage from "views/examples/LandingPage.js";
-import Index from "views/Index.js";
-import ProyectosGla from "views/examples/ProyectosGla";
+import Index from "./views/Index";
+import LandingPage from "./views/examples/LandingPage";
+import ProyectosGla from "./views/examples/ProyectosGla.jsx";
 
 /* const sendLoginRequest = async () => {
     return await fetch("https://landing-auris.azurewebsites.net/api/mail-contact", {

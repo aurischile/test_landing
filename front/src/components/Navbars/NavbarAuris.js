@@ -12,12 +12,11 @@ import {
   Row,
   Col,
   Dropdown,
-  UncontrolledDropdown,
   DropdownToggle,
   DropdownMenu,
   DropdownItem
 } from "reactstrap";
-import Aurislogo01 from "assets/img/auris/Auris-logo01-nbg-sm2.png"
+import Aurislogo01 from "../../assets/img/auris/Auris-logo01-nbg-sm2.png"
 
 
 export default function NavbarAuris() {
@@ -58,7 +57,7 @@ export default function NavbarAuris() {
         <Container>
           <div className="navbar-translate">
             <NavbarBrand to="/home" tag={Link} id="tooltip6619950104">
-              <span><img src={Aurislogo01}/></span>
+              <span><img src={Aurislogo01} alt="hola" /></span>
             </NavbarBrand>
             <button className="navbar-toggler" id="navigation">
               <span className="navbar-toggler-bar bar1" />
@@ -70,7 +69,7 @@ export default function NavbarAuris() {
             <div className="navbar-collapse-header">
               <Row>
                 <Col className="collapse-brand" xs="6">
-                  <span><img src={Aurislogo01}/></span>
+                  <span><img src={Aurislogo01} alt="hola"/></span>
                 </Col>
                 <Col className="collapse-close text-right" xs="6">
                   <button className="navbar-toggler" id="navigation">

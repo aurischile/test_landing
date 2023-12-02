@@ -1,7 +1,7 @@
 import React from "react";
 // reactstrap components
 import { Row, Col } from "reactstrap";
-import MultiItemCarousel from "./MultiClient";
+import MultiItemCarousel from "./MultiClient.jsx";
 import { items2 } from "../../data/clientesCarousel.js"
 
 
@@ -10,8 +10,6 @@ export default function Clientes() {
 
 
   return (
-    <>
-    
       <div className="cd-section" >
         {/* ********* TESTIMONIALS 2 ********* */}
         <div className="testimonials-2 ">
@@ -32,6 +30,5 @@ export default function Clientes() {
         </div>
         {/* ********* END TESTIMONIALS 2 ********* */}
       </div>
-    </>
   );
 }
